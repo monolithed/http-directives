@@ -1,5 +1,5 @@
 {
-    "name": "@dozora/http-directives",
+    "name": "http-directives",
     "description": "A TypeScript-friendly package that provides strongly-typed HTTP constants",
     "keywords": [
         "HTTP Constants",
