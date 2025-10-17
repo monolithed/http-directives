@@ -63,12 +63,28 @@ CSPSources.sha384('hash')         // "'sha384-hash'"
 CSPSources.sha512('hash')         // "'sha512-hash'"
 ```
 
+### Extensible
+
+Define and reuse your own constants with full autocompletion and type safety:
+
+```ts
+import {Headers} from 'http-directives';
+
+class YourHeaders extends Headers {
+    public static readonly YOUR_CUSTOM_HEADER = 'custom-header';
+}
+
+YourHeaders.YOUR_CUSTOM_HEADER    // "custom-header"
+```
+
 ### Benefits
 
 * **Safe**: Avoid typos in strings and headers
 * **Autocompletion**: Full IDE support with TypeScript
 * **Up-to-date**: Includes modern headers, directives, and encodings
 * **Zero dependencies**: Lightweight and fast
+* **Compatible**: Supports both ESM and CJS
+* **Extensible**: Easily add custom directives and headers
 
 ### Contributing
 

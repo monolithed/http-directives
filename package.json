@@ -12,19 +12,26 @@
         "DNT",
         "Headers"
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "repository": "https://github.com/monolithed/http-directives",
     "scripts": {
-        "clean": "rm -rf ./dist",
-        "build": "npm run clean && tsc",
+        "build": "tsup src/index.ts --format cjs,esm --dts --out-dir dist --clean",
         "prepublishOnly": "npm run build"
     },
     "files": [
         "dist/"
     ],
     "main": "dist/index.js",
+    "type": "module",
+    "exports": {
+        ".": {
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.cjs"
+        }
+    },
     "devDependencies": {
+        "tsup": "8.5.0",
         "typescript": "5.9.3"
     }
 }
