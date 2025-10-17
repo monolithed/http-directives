@@ -12,8 +12,9 @@
         "DNT",
         "Headers"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
+    "repository": "https://github.com/monolithed/http-directives",
     "scripts": {
         "clean": "rm -rf ./dist",
         "build": "npm run clean && tsc",
