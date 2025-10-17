@@ -1,0 +1,29 @@
+{
+    "name": "@dozora/http-directives",
+    "description": "A TypeScript-friendly package that provides strongly-typed HTTP constants",
+    "keywords": [
+        "HTTP Constants",
+        "Constants",
+        "Response Codes",
+        "MIME Types",
+        "Cache Control",
+        "Content Encoding",
+        "CSP",
+        "DNT",
+        "Headers"
+    ],
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "clean": "rm -rf ./dist",
+        "build": "npm run clean && tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "files": [
+        "dist/"
+    ],
+    "main": "dist/index.js",
+    "devDependencies": {
+        "typescript": "5.9.3"
+    }
+}

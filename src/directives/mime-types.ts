@@ -1,0 +1,124 @@
+class MimeTypes {
+    public static APPLICATION_ATOM_XML = 'application/atom+xml';
+    public static APPLICATION_EDI_X12 = 'application/EDI-X12';
+    public static APPLICATION_EDIFACT = 'application/EDIFACT';
+    public static APPLICATION_GEO_JSON = 'application/geo+json';
+    public static APPLICATION_LD_JSON = 'application/ld+json';
+    public static APPLICATION_MANIFEST_JSON = 'application/manifest+json';
+    public static APPLICATION_JSON = 'application/json';
+    public static APPLICATION_JAVASCRIPT = 'application/javascript';
+    public static APPLICATION_OCTET_STREAM = 'application/octet-stream';
+    public static APPLICATION_OGG = 'application/ogg';
+    public static APPLICATION_PDF = 'application/pdf';
+    public static APPLICATION_POSTSCRIPT = 'application/postscript';
+    public static APPLICATION_SOAP_XML = 'application/soap+xml';
+    public static APPLICATION_FONT_WOFF = 'application/font-woff';
+    public static APPLICATION_XHTML_XML = 'application/xhtml+xml';
+    public static APPLICATION_XML_DTD = 'application/xml-dtd';
+    public static APPLICATION_XOP_XML = 'application/xop+xml';
+    public static APPLICATION_ZIP = 'application/zip';
+    public static APPLICATION_GZIP = 'application/gzip';
+    public static APPLICATION_X_BITTORRENT = 'application/x-bittorrent';
+    public static APPLICATION_X_TEX = 'application/x-tex';
+    public static APPLICATION_XML = 'application/xml';
+    public static APPLICATION_X_WWW_FORM_URLENCODED = 'application/x-www-form-urlencoded';
+    public static APPLICATION_X_DVI = 'application/x-dvi';
+    public static APPLICATION_X_LATEX = 'application/x-latex';
+    public static APPLICATION_X_FONT_TTF = 'application/x-font-ttf';
+
+    /** @deprecated */
+    public static APPLICATION_X_SHOCKWAVE_FLASH = 'application/x-shockwave-flash';
+
+    /** @deprecated */
+    public static APPLICATION_X_STUFFIT = 'application/x-stuffit';
+    public static APPLICATION_X_RAR_COMPRESSED = 'application/x-rar-compressed';
+    public static APPLICATION_X_TAR = 'application/x-tar';
+
+    /** @deprecated */
+    public static APPLICATION_X_JQUERY_TMPL = 'application/x-jquery-tmpl';
+
+    /** @deprecated Use application/javascript instead */
+    public static APPLICATION_X_JAVASCRIPT = 'application/x-javascript';
+    public static APPLICATION_PKCDS12 = 'application/x-pkcs12';
+    public static APPLICATION_PKCDS7_CERTIFICATES = 'application/x-pkcs7-certificates';
+    public static APPLICATION_PKCDS7_CERTREQRESP = 'application/x-pkcs7-certreqresp';
+    public static APPLICATION_PKCDS7_MIME = 'application/x-pkcs7-mime';
+    public static APPLICATION_PKCDS7_SIGNATURE = 'application/x-pkcs7-signature';
+    public static AUDIO_BASIC = 'audio/basic';
+    public static AUDIO_L24 = 'audio/L24';
+    public static AUDIO_MP4 = 'audio/mp4';
+    public static AUDIO_AAC = 'audio/aac';
+    public static AUDIO_MPEG = 'audio/mpeg';
+    public static AUDIO_OGG = 'audio/ogg';
+    public static AUDIO_OPUS = 'audio/opus';
+    public static AUDIO_VORBIS = 'audio/vorbis';
+    public static AUDIO_X_MS_WMA = 'audio/x-ms-wma';
+    public static AUDIO_X_MS_WAX = 'audio/x-ms-wax';
+    public static AUDIO_VND_RN_REALAUDIO = 'audio/vnd.rn-realaudio';
+    public static AUDIO_VND_WAVE = 'audio/vnd.wave';
+    public static AUDIO_WAV = 'audio/wav';
+    public static AUDIO_WEBM = 'audio/webm';
+    public static IMAGE_AVIF = 'image/avif';
+    public static IMAGE_GIF = 'image/gif';
+    public static IMAGE_JPEG = 'image/jpeg';
+    public static IMAGE_PJPEG = 'image/pjpeg';
+    public static IMAGE_PNG = 'image/png';
+    public static IMAGE_SVG_XML = 'image/svg+xml';
+    public static IMAGE_TIFF = 'image/tiff';
+    public static IMAGE_VND_MICROSOFT_ICON = 'image/vnd.microsoft.icon';
+    public static IMAGE_VND_WAP_WBMP = 'image/vnd.wap.wbmp';
+    public static IMAGE_WEBP = 'image/webp';
+    public static IMAGE_HTTP = 'message/http';
+    public static IMAGE_IMDN_XML = 'message/imdn+xml';
+    public static IMAGE_PARTIAL = 'message/partial';
+    public static IMAGE_RFC822 = 'message/rfc822';
+    public static IMAGE_EXAMPLE = 'model/example';
+    public static IMAGE_IGES = 'model/iges';
+    public static IMAGE_MESH = 'model/mesh';
+    public static IMAGE_VRML = 'model/vrml';
+    public static IMAGE_X3D_BINARY = 'model/x3d+binary';
+    public static IMAGE_X3D_VRML = 'model/x3d+vrml';
+    public static IMAGE_X3D_XML = 'model/x3d+xml';
+    public static IMAGE_MIXED = 'multipart/mixed';
+    public static IMAGE_ALTERNATIVE = 'multipart/alternative';
+    public static IMAGE_RELATED = 'multipart/related';
+    public static IMAGE_FORM_DATA = 'multipart/form-data';
+    public static IMAGE_SIGNED = 'multipart/signed';
+    public static IMAGE_ENCRYPTED = 'multipart/encrypted';
+    public static IMAGE_CMD = 'text/cmd';
+    public static IMAGE_CSS = 'text/css';
+    public static IMAGE_CSV = 'text/csv';
+    public static IMAGE_HTML = 'text/html';
+    public static IMAGE_JAVASCRIPT = 'text/javascript';
+    public static IMAGE_PLAIN = 'text/plain';
+    public static IMAGE_PHP = 'text/php';
+    public static IMAGE_XML = 'text/xml';
+    public static IMAGE_MARKDOWN = 'text/markdown';
+    public static IMAGE_CACHE_MANIFEST = 'text/cache-manifest';
+    public static IMAGE_MPEG = 'video/mpeg';
+    public static IMAGE_MP4 = 'video/mp4';
+    public static IMAGE_OGG = 'video/ogg';
+    public static IMAGE_QUICKTIME = 'video/quicktime';
+    public static IMAGE_WEBM = 'video/webm';
+    public static IMAGE_X_MS_WMV = 'video/x-ms-wmv';
+    public static IMAGE_X_FLV = 'video/x-flv';
+    public static IMAGE_3GPP = 'video/3gpp';
+    public static IMAGE_3GPP2 = 'video/3gpp2';
+    public static APPLICATION_VND_OD_TEXT = 'application/vnd.oasis.opendocument.text';
+    public static APPLICATION_VND_OD_SPERADSHEET = 'application/vnd.oasis.opendocument.spreadsheet';
+    public static APPLICATION_VND_OD_PRESENTATION = 'application/vnd.oasis.opendocument.presentation';
+    public static APPLICATION_VND_OD_GRAPHICS = 'application/vnd.oasis.opendocument.graphics';
+    public static APPLICATION_MS_EXCEL = 'application/vnd.ms-excel';
+    public static APPLICATION_MS_EXCEL_2007 = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
+    public static APPLICATION_MS_POWERPOINT = 'application/vnd.ms-powerpoint';
+    public static APPLICATION_MS_POWERPOINT_2007 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation';
+    public static APPLICATION_MS_WORD_2007 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
+    public static APPLICATION_MS_WORD = 'application/msword';
+    public static APPLICATION_KML = 'application/vnd.google-earth.kml+xml';
+    public static APPLICATION_XUL = 'application/vnd.mozilla.xul+xml';
+    public static APPLICATION_VND_API_JSON = 'application/vnd.api+json';
+    public static APPLICATION_WARC = 'application/warc';
+    public static APPLICATION_WASM = 'application/wasm';
+}
+
+export {MimeTypes};

@@ -1,0 +1,126 @@
+class Headers {
+    public static readonly A_IM = 'A-IM';
+    public static readonly ACCEPT = 'Accept';
+    public static readonly ACCEPT_CH = 'Accept-CH';
+    public static readonly ACCEPT_CH_LIFETIME = 'Accept-CH-Lifetime';
+    public static readonly ACCEPT_CHARSET = 'Accept-Charset';
+    public static readonly ACCEPT_DATETIME = 'Accept-Datetime';
+    public static readonly ACCEPT_ENCODING = 'Accept-Encoding';
+    public static readonly ACCEPT_LANGUAGE = 'Accept-Language';
+    public static readonly ACCEPT_PATCH = 'Accept-Patch';
+    public static readonly ACCEPT_RANGES = 'Accept-Ranges';
+    public static readonly ACCESS_CONTROL_ALLOW_CREDENTIALS = 'Access-Control-Allow-Credentials';
+    public static readonly ACCESS_CONTROL_ALLOW_HEADERS = 'Access-Control-Allow-Headers';
+    public static readonly ACCESS_CONTROL_ALLOW_METHODS = 'Access-Control-Allow-Methods';
+    public static readonly ACCESS_CONTROL_ALLOW_ORIGIN = 'Access-Control-Allow-Origin';
+    public static readonly ACCESS_CONTROL_EXPOSE_HEADERS = 'Access-Control-Expose-Headers';
+    public static readonly ACCESS_CONTROL_MAX_AGE = 'Access-Control-Max-Age';
+    public static readonly ACCESS_CONTROL_REQUEST_HEADERS = 'Access-Control-Request-Headers';
+    public static readonly ACCESS_CONTROL_REQUEST_METHOD = 'Access-Control-Request-Method';
+    public static readonly AGE = 'Age';
+    public static readonly ALLOW = 'Allow';
+    public static readonly ALT_SVC = 'Alt-Svc';
+    public static readonly AUTHORIZATION = 'Authorization';
+    public static readonly CACHE_CONTROL = 'Cache-Control';
+    public static readonly CONNECTION = 'Connection';
+    public static readonly CONTENT_DISPOSITION = 'Content-Disposition';
+    public static readonly CONTENT_DPR = 'Content-DPR';
+    public static readonly CONTENT_ENCODING = 'Content-Encoding';
+    public static readonly CONTENT_LANGUAGE = 'Content-Language';
+    public static readonly CONTENT_LENGTH = 'Content-Length';
+    public static readonly CONTENT_LOCATION = 'Content-Location';
+    public static readonly CONTENT_MD5 = 'Content-MD5';
+    public static readonly CONTENT_RANGE = 'Content-Range';
+    public static readonly CONTENT_SECURITY_POLICY = 'Content-Security-Policy';
+    public static readonly CONTENT_SECURITY_POLICY_REPORT_ONLY = 'Content-Security-Policy-Report-Only';
+    public static readonly CONTENT_TYPE = 'Content-Type';
+    public static readonly COOKIE = 'Cookie';
+    public static readonly DATE = 'Date';
+    public static readonly DERIVED_FROM = 'Derived-From';
+    public static readonly DNT = 'DNT';
+    public static readonly DOWNLINK = 'Downlink';
+    public static readonly DPR = 'DPR';
+    public static readonly EARLY_DATA = 'Early-Data';
+    public static readonly ETAG = 'ETag';
+    public static readonly EXPECT = 'Expect';
+    public static readonly EXPECT_CT = 'Expect-CT';
+    public static readonly EXPIRES = 'Expires';
+    public static readonly FORWARDED = 'Forwarded';
+    public static readonly FROM = 'From';
+    public static readonly HOST = 'Host';
+    public static readonly IF_MATCH = 'If-Match';
+    public static readonly IF_MODIFIED_SINCE = 'If-Modified-Since';
+    public static readonly IF_NONE_MATCH = 'If-None-Match';
+    public static readonly IF_RANGE = 'If-Range';
+    public static readonly IF_UNMODIFIED_SINCE = 'If-Unmodified-Since';
+    public static readonly IM = 'IM';
+    public static readonly KEEP_ALIVE = 'Keep-Alive';
+    public static readonly LAST_EVENT_ID = 'Last-Event-ID';
+    public static readonly LAST_MODIFIED = 'Last-Modified';
+    public static readonly LINK = 'Link';
+    public static readonly LOCATION = 'Location';
+    public static readonly MAX_FORWARDS = 'Max-Forwards';
+    public static readonly MIME_VERSION = 'MIME-Version';
+    public static readonly ORIGIN = 'Origin';
+
+    /** @deprecated */
+    public static readonly P3P = 'P3P';
+    public static readonly PRAGMA = 'Pragma';
+    public static readonly PROXY_AUTHENTICATE = 'Proxy-Authenticate';
+    public static readonly PROXY_AUTHORIZATION = 'Proxy-Authorization';
+    public static readonly RANGE = 'Range';
+    public static readonly REFERER = 'Referer';
+    public static readonly REFERRER_POLICY = 'Referrer-Policy';
+    public static readonly REFRESH = 'Refresh';
+    public static readonly RETRY_AFTER = 'Retry-After';
+    public static readonly SAVE_DATA = 'Save-Data';
+    public static readonly SEC_WEBSOCKET_ACCEPT = 'Sec-WebSocket-Accept';
+    public static readonly SEC_WEBSOCKET_EXTENSIONS = 'Sec-WebSocket-Extensions';
+    public static readonly SEC_WEBSOCKET_KEY = 'Sec-WebSocket-Key';
+    public static readonly SEC_WEBSOCKET_PROTOCOL = 'Sec-WebSocket-Protocol';
+    public static readonly SEC_WEBSOCKET_VERSION = 'Sec-WebSocket-Version';
+    public static readonly SERVER = 'Server';
+    public static readonly SERVER_TIMING = 'Server-Timing';
+    public static readonly SET_COOKIE = 'Set-Cookie';
+    public static readonly STRICT_TRANSPORT_SECURITY = 'Strict-Transport-Security';
+    public static readonly TE = 'TE';
+    public static readonly TIMING_ALLOW_ORIGIN = 'Timing-Allow-Origin';
+    public static readonly TK = 'Tk';
+    public static readonly TRAILER = 'Trailer';
+    public static readonly TRANSFER_ENCODING = 'Transfer-Encoding';
+    public static readonly UPGRADE = 'Upgrade';
+    public static readonly UPGRADE_INSECURE_REQUESTS = 'Upgrade-Insecure-Requests';
+    public static readonly USER_AGENT = 'User-Agent';
+    public static readonly VARY = 'Vary';
+    public static readonly VIA = 'Via';
+    public static readonly WARNING = 'Warning';
+    public static readonly WWW_AUTHENTICATE = 'WWW-Authenticate';
+
+    /** @deprecated */
+    public static readonly X_CONTENT_SECURITY_POLICY = 'X-Content-Security-Policy';
+    public static readonly X_CONTENT_TYPE_OPTIONS = 'X-Content-Type-Options';
+    public static readonly X_CORRELATION_ID = 'X-Correlation-ID';
+    public static readonly X_CSRF_TOKEN = 'X-Csrf-Token';
+    public static readonly X_DNS_PREFETCH_CONTROL = 'X-DNS-Prefetch-Control';
+    public static readonly X_DOWNLOAD_OPTIONS = 'X-Download-Options';
+    public static readonly X_FORWARDED_FOR = 'X-Forwarded-For';
+    public static readonly X_FORWARDED_HOST = 'X-Forwarded-Host';
+    public static readonly X_FORWARDED_PROTO = 'X-Forwarded-Proto';
+    public static readonly X_FRAME_OPTIONS = 'X-Frame-Options';
+    public static readonly X_HTTP_METHOD_OVERRIDE = 'X-Http-Method-Override';
+    public static readonly X_PERMITTED_CROSS_DOMAIN_POLICIES = 'X-Permitted-Cross-Domain-Policies';
+    public static readonly X_POWERED_BY = 'X-Powered-By';
+    public static readonly X_REQUEST_ID = 'X-Request-ID';
+    public static readonly X_REQUESTED_WITH = 'X-Requested-With';
+    public static readonly X_ROBOTS_TAG = 'X-Robots-Tag';
+    public static readonly X_UA_COMPATIBLE = 'X-UA-Compatible';
+    public static readonly X_WAP_PROFILE = 'X-Wap-Profile';
+
+    /** @deprecated */
+    public static readonly X_WEBKIT_CSP = 'X-WebKit-CSP';
+
+    /** @deprecated */
+    public static readonly X_XSS_PROTECTION = 'X-XSS-Protection';
+}
+
+export {Headers};
