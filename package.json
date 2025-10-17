@@ -12,7 +12,7 @@
         "DNT",
         "Headers"
     ],
-    "version": "1.0.2",
+    "version": "1.0.3",
     "license": "MIT",
     "repository": "https://github.com/monolithed/http-directives",
     "scripts": {
@@ -22,11 +22,10 @@
     "files": [
         "dist/"
     ],
-    "main": "dist/index.js",
     "type": "module",
     "exports": {
         ".": {
-            "import": "./dist/index.mjs",
+            "import": "./dist/index.js",
             "require": "./dist/index.cjs"
         }
     },
