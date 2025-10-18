@@ -12,28 +12,31 @@
         "Content Encodings",
         "CSP",
         "DNT",
+        "REST API",
         "Headers",
         "Protocols"
     ],
-    "version": "1.0.4",
+    "version": "1.0.5",
     "license": "MIT",
     "repository": "https://github.com/monolithed/http-directives",
-    "scripts": {
-        "build": "tsup src --format esm,cjs --dts --out-dir dist --clean",
-        "prepublishOnly": "npm run build"
-    },
+    "type": "module",
     "files": [
         "dist/"
     ],
-    "type": "module",
     "exports": {
         ".": {
             "import": "./dist/index.js",
             "require": "./dist/index.cjs"
         }
     },
+    "scripts": {
+        "build": "tsup src --format esm,cjs --dts --out-dir dist --clean",
+        "test": "vitest run",
+        "prepublishOnly": "npm run build"
+    },
     "devDependencies": {
-        "tsup": "8.5.0",
-        "typescript": "5.9.3"
+        "tsup": "^8.5.0",
+        "typescript": "^5.9.3",
+        "vitest": "^3.2.4"
     }
 }

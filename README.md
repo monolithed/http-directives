@@ -1,4 +1,4 @@
-### http-directives
+# http-directives
 
 A TypeScript-friendly package that provides strongly-typed constants for common HTTP headers, directives, status codes,
 MIME types, caching policies, CSP rules, and more. <br/>
@@ -16,19 +16,19 @@ npm i http-directives
 
 The following categories of constants are included in this package:
 
-| Category              | Constants examples                                                                            |
-|-----------------------|-----------------------------------------------------------------------------------------------|
-| **HTTP Status Codes** | `OK`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`, etc.                                              |
-| **HTTP Methods**      | `GET`, `POST`, `PUT`, `DELETE`, etc.                                                          |
-| **HTTP Headers**      | `CONTENT_TYPE`, `CACHE_CONTROL`, `STRICT_TRANSPORT_SECURITY`, `CONTENT_SECURITY_POLICY`, etc. |
+| Category              | Constants examples                                                                               |
+|-----------------------|--------------------------------------------------------------------------------------------------|
+| **HTTP Status Codes** | `OK`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`, etc.                                                 |
+| **HTTP Methods**      | `GET`, `POST`, `PUT`, `DELETE`, etc.                                                             |
+| **HTTP Headers**      | `CONTENT_TYPE`, `CACHE_CONTROL`, `STRICT_TRANSPORT_SECURITY`, `CONTENT_SECURITY_POLICY`, etc.    |
 | **MIME Types**        | `APPLICATION_JSON`, `APPLICATION_JAVASCRIPT`, `APPLICATION_ZIP`, `TEXT_PLAIN`, `TEXT_HTML`, etc. |
-| **Content Encodings** | `GZIP`, `BR`, etc.                                                                            |
-| **Cache Control**     | `MAX_AGE`, `NO_CACHE`, `PRIVATE`, etc.                                                        |
-| **Charsets**          | `UTF-8`, `UTF-16`, `ISO-8859-1`, etc.                                                         |
-| **CSP Directives**    | `SCRIPT_SRC`, `STYLE_SRC`, etc.                                                               |
-| **CSP Sources**       | `SELF`, `UNSAFE_INLINE`, `NONCE()`, etc.                                                      |
-| **DNT**               | `ENABLED`, `DISABLED`, etc.                                                                   |
-| **Protocols**         | `HTTP`, `HTTPS`, `SSH`, `WSS`, `MQTT`,  etc.                                                  |
+| **Content Encodings** | `GZIP`, `BR`, etc.                                                                               |
+| **Cache Control**     | `MAX_AGE`, `NO_CACHE`, `PRIVATE`, etc.                                                           |
+| **Charsets**          | `UTF-8`, `UTF-16`, `ISO-8859-1`, etc.                                                            |
+| **CSP Directives**    | `SCRIPT_SRC`, `STYLE_SRC`, etc.                                                                  |
+| **CSP Sources**       | `SELF`, `UNSAFE_INLINE`, `nonce()`, `sha256()`, etc.                                             |
+| **DNT**               | `!`, `?`, `N`, `T`, etc.                                                                         |
+| **Protocols**         | `HTTP`, `HTTPS`, `SSH`, `WSS`, `MQTT`,  etc.                                                     |
 
 
 
@@ -55,10 +55,10 @@ ContentEncodings.GZIP             // "gzip"
 Charsets.UTF_8                    // "UTF-8"
 StatusCodes.OK                    // 200
 CacheControl.MAX_AGE              // "max-age"
-CSPDirectives.UNSAFE_EVAL         // "unsafe-eval"
+CSPDirectives.BASE_URI            // "base-uri"
 CSPSources.SELF                   // "self"
 Methods.POST                      // "POST"
-DNT.ENABLED                       // "1"
+DNT.NOT_TRACKING                  // "N"
 Protocols.HTTPS                   // "https:"
 ```
 
@@ -81,11 +81,11 @@ Define and reuse your own constants with full autocompletion and type safety:
 ```ts
 import {Headers} from 'http-directives';
 
-class YourHeaders extends Headers {
-    public static readonly YOUR_CUSTOM_HEADER = 'custom-header';
+class CustomHeaders extends Headers {
+    public static readonly CUSTOM_HEADER = 'custom-header';
 }
 
-YourHeaders.YOUR_CUSTOM_HEADER    // "custom-header"
+CustomHeaders.CUSTOM_HEADER    // "custom-header"
 ```
 
 
