@@ -1,4 +1,4 @@
-class ContentEncoding {
+class ContentEncodings {
     public static readonly AES128GCM = 'aes128gcm';
     public static readonly BR = 'br';
     public static readonly DEFLATE = 'deflate';
@@ -21,4 +21,4 @@ class ContentEncoding {
     public static readonly X_GZIP = 'x-gzip';
 }
 
-export {ContentEncoding};
+export {ContentEncodings};

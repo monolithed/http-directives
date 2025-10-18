@@ -5,18 +5,21 @@
         "HTTP Constants",
         "Constants",
         "Response Codes",
+        "Status Codes",
         "MIME Types",
         "Cache Control",
-        "Content Encoding",
+        "Charsets",
+        "Content Encodings",
         "CSP",
         "DNT",
-        "Headers"
+        "Headers",
+        "Protocols"
     ],
-    "version": "1.0.3",
+    "version": "1.0.4",
     "license": "MIT",
     "repository": "https://github.com/monolithed/http-directives",
     "scripts": {
-        "build": "tsup src/index.ts --format cjs,esm --dts --out-dir dist --clean",
+        "build": "tsup src --format esm,cjs --dts --out-dir dist --clean",
         "prepublishOnly": "npm run build"
     },
     "files": [
