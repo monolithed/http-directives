@@ -59,7 +59,7 @@ CSPDirectives.UNSAFE_EVAL         // "unsafe-eval"
 CSPSources.SELF                   // "self"
 Methods.POST                      // "POST"
 DNT.ENABLED                       // "1"
-Protocols.HTTPS                    // "https:"
+Protocols.HTTPS                   // "https:"
 ```
 
 Additionally, exported CSP utility functions:
