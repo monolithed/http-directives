@@ -1,8 +1,9 @@
 export {CacheControl} from './directives/cache-control.ts';
 export {Charsets} from './directives/charsets.ts';
 export {ContentEncodings} from './directives/content-encodings.ts';
-export {CSPDirectives, CSPSources} from './directives/csp.ts';
+export {CspDirectives, CspSources} from './directives/csp.ts';
 export {DNT} from './directives/dnt.ts';
+export {Credentials, RequestModes} from './directives/cors.ts';
 export {Headers} from './directives/headers.ts';
 export {Methods} from './directives/methods.ts';
 export {MimeTypes} from './directives/mime-types.ts';

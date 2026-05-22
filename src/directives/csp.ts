@@ -1,4 +1,4 @@
-class CSPDirectives {
+class CspDirectives {
     public static readonly BASE_URI = 'base-uri';
     public static readonly DEFAULT_SRC = 'default-src';
     public static readonly CONNECT_SRC = 'connect-src';
@@ -39,7 +39,7 @@ class CSPDirectives {
     public static readonly PLUGIN_TYPES = 'plugin-types';
 }
 
-class CSPSources {
+class CspSources {
     public static readonly SELF = 'self';
     public static readonly NONE = 'none';
     public static readonly STRICT_DYNAMIC = 'strict-dynamic';
@@ -75,4 +75,4 @@ class CSPSources {
     }
 }
 
-export {CSPDirectives, CSPSources};
+export {CspDirectives, CspSources};
